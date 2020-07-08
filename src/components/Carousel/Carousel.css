@@ -1,0 +1,80 @@
+.flickity-button {
+    position: absolute;
+    background: #026764;
+    border: none;
+    color: #333;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.flickity-button:hover {
+    position: absolute;
+    background: #026764;
+    border: none;
+    color: #333;
+}
+
+.flickity-button-icon {
+    fill: white;
+}
+
+.dot {
+    background-color: #026764 !important;
+    transition: all 2s;
+}
+
+.carousel:hover .flickity-button {
+    opacity: 0.8;
+}
+
+.cell {
+    width: 40%;
+    padding: 10px;
+    position: relative;
+}
+
+
+.carousel-container {
+    width: 90%;
+    height: 30%;
+    margin: 100px auto 0 auto;
+}
+
+.sub__span{
+    color: green;
+}
+
+.specials{
+    position: absolute;
+    top: 65%;
+    right: 6%;
+    background-color: black;
+    color: #ccc;
+    border-radius: 30px;
+    padding: 6px 22px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width : 1000px){
+    .cell{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 760px){
+    .cell{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width : 650px){
+    .cell{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 540px){
+    .cell{
+        width: 80%;
+    }
+}

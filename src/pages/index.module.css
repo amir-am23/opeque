@@ -1,0 +1,48 @@
+.Order__ready__content{
+    width: 70%;
+    margin: 67px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid  #d7d7d7;
+    align-items: center;
+}
+
+.Order__ready__content h3{
+    margin-top: 30px;
+}
+
+.Order__ready__content p{
+    font-size: 18px;
+    color:#a5a5a5
+}
+
+.Part__One{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width:1410px){
+    .A__3434A__{
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width:1013px){
+    .A__3434A__{
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width:790px){
+    .A__3434A__{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:730px){
+    .A__3434A__{
+        width: 100% !important;
+        flex-direction: column;
+    }
+}

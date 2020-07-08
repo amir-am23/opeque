@@ -1,0 +1,88 @@
+.Footer___Wrapper {
+    width: 100%;
+    background-color: #000;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.Header___Footer ul {
+    display: flex;
+}
+
+.Header___Footer ul li {
+    margin: 0 15px;
+}
+
+.Header___Footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-bottom: .5px solid #464646;
+    height: 65px;
+    margin-top: 20px;
+}
+
+.Header___Footer li {
+    list-style: none;
+}
+
+.Header___Footer li a {
+    text-decoration: none;
+    color: #a5a5a5;
+    padding-bottom: 30px;
+}
+
+.Header___Footer li a:hover {
+    transition: all 1s ease-in;
+    color: #04ada8;
+    border-bottom: 1px solid #04ada8;
+}
+
+.Stores___Icons {
+    display: flex;
+}
+
+.Main___Footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: .5px solid #464646;
+}
+
+.lists{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.links a:hover{
+    transition: 0.5s all ease-in;
+    color:#02a19c !important;
+}
+
+@media only screen and (max-width:1080px){
+    .Header___Footer{
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: row-reverse;
+    }
+    .Header___Footer li a:hover{
+        border-bottom: none;
+    }
+}
+
+@media only screen and(max-width:600px){
+    .Header___Footer ul{
+        flex-direction: column !important;
+    }
+}
